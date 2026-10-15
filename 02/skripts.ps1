@@ -1,0 +1,1 @@
+﻿Get-Process | Sort-Object -Property WorkingSet | Select-Object -Last 10 | Select-Object -Property Name, Id, @{Name="AtmiņaMB";Expression={"{0:N1}" -f ($_.WorkingSet / 1MB)}}

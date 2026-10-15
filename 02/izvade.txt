@@ -1,0 +1,12 @@
+Name                  Id AtmiņaMB
+----                  -- --------
+msedge             20584 166,8
+chrome             20504 169,9
+ccSvcHst            5252 172,1
+chrome              7340 209,3
+chrome             14824 261,9
+chrome             18708 307,5
+explorer           13948 374,4
+chrome             16176 379,1
+chrome              7612 442,3
+Memory Compression  3608 551,8

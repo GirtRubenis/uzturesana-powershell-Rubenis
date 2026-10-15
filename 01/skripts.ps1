@@ -1,0 +1,6 @@
+﻿Write-Output "Datora nosaukums: $env:COMPUTERNAME"
+Write-Output "Operētājsistēma: $($OS.Caption)"
+Write-Output "Būvējuma numurs: $($OS.BuildNumber)"
+Write-Output "PowerShell versija: $($PSVersionTable.PSVersion)"
+Write-Output "Datums un laiks: $(Get-Date)"
+Write-Output "Procesu skaits: $((Get-Process).Count)"
